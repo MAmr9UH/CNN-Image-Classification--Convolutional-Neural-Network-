@@ -3,8 +3,6 @@
 Facial Expression Recognition using Convolutional Neural Networks (CNN)
 This project implements a Convolutional Neural Network (CNN) for facial expression recognition. The CNN is trained to classify facial expressions as either happy or sad based on input images.
 
-
-
 Project Structure
 The project directory contains the following files:
 
