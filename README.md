@@ -23,7 +23,7 @@ import imgdhr
 
 ```
 
-##Data Handling
+## Data Handling
 #Remove Dodgy Images
 Define the directory and filter out unwanted image formats:
 
@@ -34,10 +34,10 @@ os.listdir(data_dir)
 image_exts = ['jpeg', 'jpg', 'bmp', 'png']
 ```
 
-##use OpenCV and Matplotlib
+## Use OpenCV and Matplotlib
 Utilize OpenCV and Matplotlib for image processing and visualization.
 
-##Preprocess Data
+## Preprocess Data
 Scale Image Data
 Scale the image data between 0 and 1 for neural network compatibility:
 ```
@@ -47,10 +47,10 @@ data = data.map(lambda x, y: (x / 255, y))
 ```
 
 
-##Split Data
+## Split Data
 Split the data into training, validation, and test sets.
 
-##Build and Train the Model
+## Build and Train the Model
 Create Model
 Create a convolutional neural network (CNN) using TensorFlow's Keras API:
 ```
@@ -64,7 +64,7 @@ model = keras.Sequential([
 ])
 ```
 
-##Train Model
+## Train Model
 Train the model using the training and validation data:
 ```
 python
@@ -73,10 +73,10 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 model.fit(training_data, epochs=10, validation_data=validation_data)
 ```
 
-##Evaluate Performance
+## Evaluate Performance
 Evaluate the model's performance using metrics like precision, recall, and accuracy.
 
-##Save the Model
+## Save the Model
 Save the trained model for future use:
 
 python
