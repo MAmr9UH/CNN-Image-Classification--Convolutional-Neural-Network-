@@ -85,6 +85,6 @@ model.save('happy_sad_model.h5')
 ```
 
 
-##Conclusion
+## Conclusion
 
 This deep learning project successfully demonstrated the capability of a convolutional neural network (CNN) to classify images into 'Happy' or 'Sad' categories using TensorFlow and Keras. The project utilized advanced machine learning techniques, including data preprocessing, model building, and real-time image classification with high accuracy. By integrating tools like OpenCV for image manipulation and Matplotlib for data visualization, the project effectively harnessed the power of Python for deep learning tasks. The classifier’s performance, evaluated on precision, recall, and accuracy, underscores the effectiveness of CNNs in automated image classification. This project not only enhances practical understanding of neural networks but also showcases the potential of deep learning in real-world applications, such as emotion recognition and human-computer interaction.
